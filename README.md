@@ -20,3 +20,33 @@ This project leverages a fine-tuned BERT model for the classification of tweets,
 - **What It Does:** The model not only detects bullying but also categorizes the type of harmful language, providing more granular insights into the nature of the abuse.
 - **Why It’s Used:** Categorizing harmful language helps in understanding the severity and type of bullying, which is crucial for intervention and prevention strategies.
 - **How It Works:** The model assigns tweets to specific categories of abuse based on the language used, such as insults, threats, or harassment.
+
+## Installation and Setup
+
+### 1. **Clone the Repository**
+```bash
+git clone https://github.com/your-repository/bullying-detection-bert.git
+cd bullying-detection-bert
+```
+### 2. **Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+### 3. **Set up the environment**
+- Ensure you have the necessary environment variables set up, including paths to your datasets and any required API keys.
+### 4. **Install Dependencies**
+- Option 1: Train the BERT model from scratch using the provided dataset:
+```bash
+python train_model.py
+
+```
+- Option 2: Load the pre-trained and fine-tuned model directly:
+```bash
+python load_model.py
+
+```
+### 5. **Run the classification Script**
+```bash
+python classify_tweets.py --input data/tweets.csv --output results.csv
+
+```
