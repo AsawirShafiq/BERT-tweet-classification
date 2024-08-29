@@ -25,8 +25,8 @@ This project leverages a fine-tuned BERT model for the classification of tweets,
 
 ### 1. **Clone the Repository**
 ```bash
-git clone https://github.com/your-repository/bullying-detection-bert.git
-cd bullying-detection-bert
+git clone https://github.com/AsawirShafiq/BERT-tweet-classification.git
+cd BERT-tweet-classification
 ```
 ### 2. **Install Dependencies**
 ```bash
